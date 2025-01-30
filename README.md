@@ -1,7 +1,7 @@
-HNG Stage One Task
+**HNG Stage One Task**
 A basic REST API created using Java that provides personal details such as email, the current date and time in ISO 8601 format, and the URL to a GitHub repository.
 
-Requirements
+**Requirements**
 Java 17 and above
 Local Development Setup
 Clone the repository
@@ -10,20 +10,20 @@ Start the development server
 
 The API will be available at http://localhost:8080
 
-API Documentation
+**API Documentation**
 Endpoint: /api/info
 Method: GET
 Response Format: JSON
 Response Format
 { "email": "aariyo111@gmail.com", "current_datetime": "2025-01-30T09:30:00Z", "https://github.com/Ajiboye-01/internship.git" }
 
-backlink
+**backlink**
 Visit: https://hng.tech/hire/java-developers for experienced Java developer
 
-Production Setup
+**Production Setup**
 To start the server in production:
 
-Deployment
+**Deployment**
 This API is deployed using Render/Railway
 
 Render
