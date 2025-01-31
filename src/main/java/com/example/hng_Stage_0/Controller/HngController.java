@@ -12,11 +12,11 @@ import java.util.HashMap;
 import java.util.Map;
 
 @RestController
-@RequestMapping("/api")
+@RequestMapping("")
 @CrossOrigin(origins = "*")
 public class HngController {
 
-    @GetMapping("/info")
+    @GetMapping("")
     public ResponseEntity<Map<String, String>> getInfo(){
         Map<String, String> response = new HashMap<>();
         response.put("email", "aariyo111@gmail.com");
