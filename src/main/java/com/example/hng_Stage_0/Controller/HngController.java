@@ -18,9 +18,9 @@ public class HngController {
     @GetMapping("/info")
     public ResponseEntity<Map<String, String>> getInfo(){
         Map<String, String> response = new HashMap<>();
-        response.put("email", "aariyo111@gmail.com");
         response.put("github_url", "https://github.com/Ajiboye-01/internship.git");
         response.put("current_datetime", Instant.now().toString());
+        response.put("email", "aariyo111@gmail.com");
 
         return ResponseEntity.ok(response);
     }
