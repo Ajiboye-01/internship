@@ -11,7 +11,7 @@ Start the development server
 The API will be available at http://localhost:8080
 
 **API Documentation**
-Endpoint: /api/info
+Endpoint:https://hng12-0-production-4048.up.railway.app
 Method: GET
 Response Format: JSON
 Response Format
@@ -20,17 +20,8 @@ Response Format
 **backlink**
 Visit: https://hng.tech/hire/java-developers for experienced Java developer
 
-**Production Setup**
-To start the server in production:
-
 **Deployment**
-This API is deployed using Render/Railway
-
-Render
-Create a new Web Service
-Connect your GitHub repository
-Set build command: 
-Set start command: 
+This API is deployed using Railway
 
 Environment Variables
 PORT: Server port (default: 8080)
