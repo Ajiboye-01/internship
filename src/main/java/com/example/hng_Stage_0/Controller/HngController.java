@@ -21,7 +21,7 @@ public class HngController {
         Map<String, String> response = new HashMap<>();
         response.put("email", "aariyo111@gmail.com");
         response.put("current_datetime", DateTimeFormatter.ISO_INSTANT.format(Instant.now()));
-        response.put("github_url", "https://github.com/Ajiboye-01/internship.git");
+        response.put("github_url", "https://github.com/Ajiboye-01/internship");
 
 
         return ResponseEntity.ok(response);
